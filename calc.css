@@ -1,0 +1,27 @@
+.outer-box{
+    display: flex;
+    flex-direction: row;
+    background-color: #16a085;
+    height: 200px;
+    padding: 10px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+   height: 40px; 
+   align-items: baseline;
+}
+
+.sign, .equal{
+    margin: 20px 10px 10px 10px;
+}
+
+input{
+    border: solid 1px #ebebeb;
+}
+
+input:focus{
+    border:none;
+}
+
